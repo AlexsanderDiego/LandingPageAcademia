@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Righteous&display=swap');
+
+/* ZERANDO TUDO */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: red;
+    width: 80%;
+    
+}
+
+.logo span {
+    font-weight: bold;
+    
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    width: 200px;
+    height: 40px;
+}
