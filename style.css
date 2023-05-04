@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
 
 /* ZERANDO TUDO */
 
@@ -18,27 +18,22 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    background-color: red;
-    width: 80%;
-    
+    padding: 5px;
 }
 
-.logo span {
-    font-weight: bold;
-    
+.menu-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.nav ul{
+.header-menu ul {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
 }
 
-.nav ul a {
+.header-menu ul a {
     text-decoration: none;
     color: #fff;
 }
