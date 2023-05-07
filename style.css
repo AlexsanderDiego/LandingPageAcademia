@@ -8,10 +8,18 @@
     box-sizing: border-box;
 }
 
-body {
+/* Fundo da tela */
+
+html {
+    width: 100vw;
+    height: 100vh;
     font-family: 'Lato', sans-serif;
     background-color: black;
     color: #fff;
+}
+
+body {
+    background: linear-gradient(rgba(17, 17, 17, 0.8), rgba(20, 20, 20, 1)), url();    
     display: flex;
     flex-direction: column;
     align-content: center;
